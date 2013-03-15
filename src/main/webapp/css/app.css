@@ -1,0 +1,225 @@
+body { 
+	background: url(../img/Pepsized_Blur_39.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container.main {
+	margin-top: 50px;
+}
+
+/*==== commons ====*/
+
+.login, .menu, .toolbar, .list, .list form input {
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.login, .menu, .toolbar, .list {
+	-webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+/*==== Login ====*/
+.login {
+	max-width: 310px;
+	margin: 0 auto 20px;
+	background-color: #fff;
+}
+
+.login .title {
+	background: #b1a599	;
+	color: #fefdfe;
+	margin: 0;
+	padding: 10px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.login .form {
+	padding: 10px 30px;
+}
+
+.login input[type="text"], .login input[type="password"] {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.login .subtitle {
+	margin-bottom: 20px;
+	color: #4eabca;
+	font-weight: normal;
+}
+
+.login .checkbox {
+	margin-bottom: 10px;
+}
+
+.login  .form-actions{
+	margin-bottom: 0;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+}
+
+/*==== Menu ====*/
+
+.menu {
+	background: #fff;
+	color: #8e8073;
+}
+
+.menu header i{
+	color: #3d9e68;
+	font-size: 64px;
+}
+	
+.menu header {
+	-webkit-border-radius: 3px 3px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
+	
+	background: #55bc75;
+	text-align: center;
+	padding: 10px;
+}
+
+.menu .title {
+	color: #fefdfe;
+	margin-top: 2px;
+}
+
+.menu ul {
+	margin-top: 10px;
+	min-height: 10px;
+}
+
+.menu li a.menu-item {
+	padding: 10px 15px;
+	font-weight: bold;
+	color: #989889;
+	display: block;
+}
+
+.menu li a.menu-item:hover {
+	background: #f8f3f0;
+	border-left: 4px solid #4daf7c;
+	text-decoration: none;
+}
+
+.menu .btn-wrapper {
+	padding: 15px 20px;
+	background: #f8f3f0;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+}
+
+/*==== toolbar ====*/
+.toolbar {
+	background: #fff;
+	color: #5b5045;
+	
+	margin-bottom: 20px;
+}
+
+.toolbar span {
+	padding-right: 20px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.toolbar .logout {
+	padding: 15px 20px 0;
+	background: #5f90b0;
+	color: #fefefe;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	border-radius: 0px 3px 3px 0px;
+	height: 35px;
+}
+
+.toolbar .logout:hover {
+	background: #537f9b;
+}
+
+/*==== List ====*/
+
+.list {
+	background: #fff;
+	font-family: 'Nixie One', serif;
+}
+
+.list .title {
+	text-align: center;
+	padding: 10px;
+}
+
+.list .wrapper {
+	padding: 5px 15px;
+}
+
+.list li {
+	margin-bottom: 5px;
+	padding: 5px 15px;
+}
+
+.list li a {
+	display: none;
+	color: #b1a599;
+}
+
+.list li:hover {
+	background: #f8f3f0;
+}
+
+.list li:hover a {
+	display: inherit;
+}
+
+.list li:hover a:hover {
+	color: #e35f38;
+}
+
+.list form {
+	margin-bottom: 10px;
+}
+
+.list form input {
+	padding-left: 15px;
+	padding-right: 15px; 
+	border: 1px solid #e5d4c2;
+	outline: none;
+	color: #646464;
+}
+
+.list .total {
+	padding: 10px;
+	text-align: right;
+	border-top: 1px solid #eaeaea;
+}
+
+.list .actions {
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+	text-align: center;
+}
+
+.list .actions a {
+	background: #776b5f;
+	padding: 10px;
+	display: block;
+	color: #fff;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+	font-weight: bold;
+}
+
+.list .actions a:hover {
+	background: #64584c;
+	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	.list {
+		margin-top: 15px;
+	}
+}
