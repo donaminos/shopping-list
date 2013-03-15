@@ -6,7 +6,7 @@ Une petite application démo que j'ai codée pour tester quelques technos.
 Screen
 ------
 
-->![ScreenShot](https://raw.github.com/rfrancillette/shopping-list/master/screenshots/screenshot.png)<-
+![ScreenShot](https://raw.github.com/rfrancillette/shopping-list/master/screenshots/screenshot.png)
 
 Front
 -----
